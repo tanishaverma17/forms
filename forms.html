@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+<form action="">
+    <p>enter name</p>
+    <input type="text" placeholder="enter text">
+    <br>
+    <br>
+    <p>ENTER MAIL ID</p>
+    <input type="email" placeholder="enter mail id">
+    <br>
+    <br>
+    <p>ENTER PASSWORD</p>
+    <input type="password" placeholder="enter password">
+    <br>
+    <br>
+    <P>ENTER COLOUR PREFERNCE</P>
+    <input type="color" placeholder="colour preference">
+    <br>
+    <br>
+    <p>ENTER MOBILE NO.</p>
+    <input type="number" placeholder="enter mobile no.">
+    <br>
+    <br>
+    <hr>
+    <!--placeholder is used if you want reability in your form it can be a example too-->
+    <label for="name"> NAME:</label>
+    <input type="text" name="uname" id="name" placeholder="Tanisha" required>
+    <hr>
+</form>  
+<!--<p> tag can be used to address the form but it does not refer it we must use lable tag and we can connect them also access it!!!!!-->
+<form action="">
+    <p>ENTER YOUR GENDER</p>
+    
+    <input type="checkbox" name="GENDER" id="male" value="MALE">
+    <label for="male">MALE</label>
+    <br>
+    <input type="checkbox" name="size" id="female" value="FEMALE">
+    <label for="female">FEMALE</label>
+    <br>
+    <br>
+    <!--checkbox is used if you want to select more than one entry and in radio it is for single entry -->
+    <hr>
+    <p>#####ENTER YOUR SIZE#####</p>
+    <input type="radio" name="size" id="small" value="SMALL SIZE">
+    <label for="small">SMALL</label>
+    <input type="radio" name="size" id="medium" value="MEDIUM SIZE">
+    <label for="medium">MEDIUM</label>
+    <input type="radio" name="size" id="large" value="LARGE SIZE">
+    <label for="large">LARGE</label>
+    <!--label command is used with input to connect them through id and for attributes(they must have same name) -->
+    <!--name attribute passes the response in your hypeerlink-->
+    <br>
+    <br>
+    <button type="submit">submit</button>    <!--in button we have type attribute in which can can do reset submit botton option accrd to need-->
+
+</form>
+
+</body>
+</html>
